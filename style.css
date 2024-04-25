@@ -1,18 +1,29 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    display: flex;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+#first-wrapper {
+    display: inline;
+    background-color: lightcyan;
 }
 
 .Header {
-    display:flex;
-    align-items:center;
-    justify-content: space-between;
-    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
 }
 
 .Links {
     display: flex;
     gap: 8px;
+}
+
+#first-content {
+    display: flex;
+}
+
+#image {
+    background-color: blue;
 }

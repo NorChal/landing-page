@@ -1,0 +1,18 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.Header {
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color: aqua;
+}
+
+.Links {
+    display: flex;
+    gap: 8px;
+}

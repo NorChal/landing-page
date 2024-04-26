@@ -5,8 +5,8 @@ body{
 }
 
 #first-wrapper {
-    display: inline;
-    background-color: lightcyan;
+    width: 100%;
+    background-color: lightcoral;
 }
 
 .Header {
@@ -20,10 +20,23 @@ body{
     gap: 8px;
 }
 
-#first-content {
-    display: flex;
+.first-content {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px;
+    gap: 100px;
 }
 
-#image {
-    background-color: blue;
+#placeholder {
+    background-color: lightblue;
+    height: 200px;
+    width: 250px;
+    text-align:center;
+}
+
+button {
+    border-radius: 5px;
+    background-color: darkblue;
+    text-decoration: none;
 }
